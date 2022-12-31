@@ -343,3 +343,213 @@
   360  NR
   361  nr
   362  touch --help
+ANOTHER INSTANCE WHERE CRONJOB ASSIGNMENT DONE
+cd account/
+   42  ls
+   43  cat pacct
+   44  sudo cat pacct
+   45  cd pacct
+   46  cd ..
+   47  cd adm
+   48  ls
+   49  cd ..
+   50  cd account/
+   51  ls
+   52  cd pacct
+   53  cat pacct
+   54  cd ..
+   55  ls -lh
+   56  free
+   57  free -h
+   58  du -h
+   59  df
+   60  df -h
+   61  du
+   62  du -h
+   63  ls
+   64  cat cronoutput 
+   65  vi cronoutput 
+   66  crontab --help
+   67  crontab -u
+   68  crontab -- u
+   69  crontab -u
+   70  crontab -u cronoutput 
+   71  sudo crontab -u cronoutput 
+   72  cat cronoutput 
+   73  crontab -l
+   74  crontab -e
+   75  ls
+   76  cat cronoutput 
+   77  /etc
+   78  cd /etc
+   79  ls
+   80  sudo cat os-release 
+   81  sudo cat passwd
+   82  ls
+   83  sudo cat profile
+   84  ls 
+   85  sudo cat bashrc
+   86  cat cronoutput
+   87  cd ..
+   88  ls
+   89  cd --
+   90  ls
+   91  cat cronoutput 
+   92  crontab -e
+   93  cat cronoutput 
+   94  cd  /var/spool/mail/ec2-user
+   95  cd /var/spool/mail/
+   96  ls
+   97  sudo cat ec2-user 
+   98  crontab -e
+   99  cd --
+  100  cat cronoutput 
+  101  date
+  102  crontab -e
+  103  ls
+  104  cat cronoutput 
+  105  crontab -e
+  106  cat cronoutput 
+  107  mkdir learn
+  108  crontab -l
+  109  crontab -e
+  110  ls
+  111  cd /etc
+  112  ls
+  113  cat anacrontab 
+  114  sudo cat anacrontab 
+  115  cat crontab
+  116  ls
+  117  sudo cat crontab 
+  118  cd --
+  119  ls
+  120  cat cronoutput 
+  121  tail -f cronoutput
+  122  bg
+  123  fg
+  124  cat cronoutput 
+  125  cd /etc
+  126  ls
+  127  sudo cat environment 
+  128  sudo cat hosts
+  129  sudo cat hostname
+  130  sudo cat netconfig
+  131  sudo cat networks 
+  132  sudo catnfsmount.conf
+  133  sudo cat nfsmount.conf
+  134  ls
+  135  cat cronoutput && cronoutput1
+  136  cat cronoutput cronoutput1
+  137  cat cronoutput
+  138  cat cronoutput1
+  139  crontab -e
+  140  cat cronoutput
+  141  crontab -e
+  142  cat cronoutput 
+  143  cronatb -e
+  144  crontab -e
+  145  cat cronoutput 
+  146  date
+  147  cat cronoutput 
+  148  crontab -e
+  149  cat cronoutput 
+  150  crontab-e
+  151  crontab -e
+  152  cat cronoutput 
+  153  cd /etc
+  154  ls
+  155  sudo cat request-key.conf
+  156  ls
+  157  sudo cat rsyncd.conf
+  158  sudo cat shells
+  159  cd ssh
+  160  ls
+  161  sudo cat ssh_host_ecdsa_key.pub
+  162  pwd
+  163  cd ..
+  164  sudo cat sudoers
+  165  cd --
+  166  ls
+  167  cat cronoutput 
+  168  crontab -e
+  169  cat cronoutput && cronoutput1
+  170  ls
+  171  cd /etc
+  172  ls
+  173  sudo cat updatedb.conf
+  174  sudo cat trusted-key.key
+  175  ls
+  176  sudo cat wgetrc
+  177  ls
+  178  cat cronoutput
+  179  tail -f 12 cronoutput
+  180  tail -f 20 cronoutput
+  181  head -20 cronoutput
+  182  cronoutput
+  183  ls
+  184  cronoutput -e
+  185  crontab -e
+  186  ls'
+  187  ls
+  188  crontab -e
+  189  cat cronoutput
+  190  tail -f cronoutput
+  191  bg
+  192  fg
+  193  bg
+  194  crontab -e
+  195  cat cronoutput
+  196  tail -f cronoutput
+  197  crontab -e
+  198  tail -f cronoutput
+  199  ls
+  200  crontab -e
+  201  cat cronoutput
+  202  head cronoutput
+  203  tail -20 cronoutput
+  204  tail -f cronoutput
+  205  ls
+  206  cd /etc
+  207  ls
+  208  cd --
+  209  ls
+  210  cd ..
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd etc/
+  215  ls
+  216  cd var
+  217  ls
+  218  cd --
+  219  cd ..
+  220  ls
+  221  cd /var
+  222  ls
+  223  cd lib
+  224  ls
+  225  cd ..
+  226  cd lib
+  227  ls
+  228  cd ..
+  229  ls
+  230  cd .bashrc
+  231  cd /bash
+  232  echo $path
+  233  cd ~
+  234  ls
+  235  echo $path
+  236  echo $PATH
+  237  exit
+  238  ls -a
+  239  cd .ssh
+  240  ls
+  241  cat id_rsa.pub
+  242  ssh ec2-user@13.233.104.247
+  243  ls
+  244  cd --
+  245  ls
+  246  vi test-server
+  247  ssh ec2-user@13.233.104.247
+  248  ls
+  249  cat test-server
