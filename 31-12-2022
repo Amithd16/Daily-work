@@ -1,0 +1,9 @@
+PS Command
+  To see every process running as root (real & effective ID) in user format:
+          ps -U root -u root u
+          
+           Print only the process IDs of syslogd:
+          ps -C syslogd -o pid=
+
+       Print only the name of PID 42:
+          ps -q 42 -o comm=
