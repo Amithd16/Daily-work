@@ -1,0 +1,345 @@
+18  ls -a
+   19  ls
+   20  cat id_rsa.pub
+   21  ssh ec2-user@13.127.196.218
+   22  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   23  cd .ssh
+   24  ls
+   25  cat id_rsa
+   26  cd .ssh
+   27  ls
+   28  cat id_rsa.pub
+   29  ssh ec2-user@3.111.218.196
+   30  ls
+   31  cat id_rsa
+   32  ls
+   33  mkdir test commands
+   34  ls
+   35  cd commands/
+   36  ls 
+   37  ls -a
+   38  cd ..
+   39  ls -a
+   40  cd .ssh
+   41  ls
+   42  vi authorized_keys 
+   43  cat id_rsa
+   44  cat id_rsa.pub
+   45  ls
+   46  git --version
+   47  git clone https://github.com/jenkinsci/calendar-view-plugin.git
+   48  ls
+   49  cd calendar-view-plugin/
+   50  ls
+   51  ls -l
+   52  ls -lh
+   53  ls -lr
+   54  ls -l
+   55  ls -lrt
+   56  cd ..
+   57  ls
+   58  cd command
+   59  cd commands/
+   60  touch file {1..5}
+   61  ls
+   62  rm -r 1
+   63  rm -r 2
+   64  rm -r 4,5
+   65  rm -r 4
+   66  rm -r 5
+   67  ls
+   68  rm -r 3
+   69  rm file
+   70  ls
+   71  touch file{1..5}
+   72  ls
+   73  vi file1
+   74  vi file2
+   75  cat file1 file2
+   76  cat ficat
+   77  cat > ficat
+   78  ls
+   79  cat >ficat
+   80  echo "Dance, Dance" > cat_create
+   81  ls
+   82  rm -r cat_create 
+   83  ls
+   84  rm -r ficat
+   85  ls
+   86  cat>ficat
+   87  ls
+   88  cat ficat
+   89  echo "file created using cat command" >ficat1
+   90  ls
+   91  cat -n file1
+   92  cat -n file2
+   93  more file1
+   94  cat file1
+   95  clear
+   96  cat file2
+   97  more file2
+   98  head -n file2
+   99  head -n 3 file2
+  100  cat -n file2
+  101  head -5 file2
+  102  head -c 4 file2
+  103  head -c 11 file2
+  104  tail -f file2
+  105  mv file2 file3
+  106  ls
+  107  locate file5
+  108  locate test
+  109  cd ..
+  110  ls
+  111  cd commands/
+  112  ls
+  113  cp file3 file4
+  114  ls 
+  115  cat file3
+  116  cat file4
+  117  ls
+  118  du
+  119  du -h
+  120  free
+  121  free -h
+  122  ip config
+  123  ip help
+  124  ip address
+  125  if config; 
+  126  ls -a
+  127  cd /var
+  128  pwd
+  129  ls
+  130  cd adm
+  131  ls
+  132  cd..
+  133  cd ..
+  134  cd log
+  135  ls
+  136  cd jenkins/
+  137  sudo cd jenkins/
+  138  ls
+  139  sudo cd jenkins
+  140  sudo su
+  141  cd --
+  142  ls
+  143  /var
+  144  cd /var
+  145  ls
+  146  cd log
+  147  ls
+  148  pwd
+  149  sdo cat messages
+  150  sudo cat messages
+  151  ls -l /etc/
+  152  hostname
+  153  hostname.conf
+  154  id
+  155  sudo cat sudoers
+  156  ls
+  157  cd /etc
+  158  ls
+  159  sudo cat sudoers
+  160  visudo
+  161  sudo visudo
+  162  cd --
+  163  ls 
+  164  sudo visudo
+  165  sudo su
+  166  uname
+  167  uname-r
+  168  uname -r
+  169  uname -a
+  170  hostname
+  171  cat hostname> file5
+  172  hostname
+  173  hostnamectl
+  174  uname -n
+  175  uname
+  176  uname -r
+  177  uname -a
+  178  if config -a
+  179  ifconfig -a
+  180  ip -a
+  181  ip a
+  182  ifconfig -a
+  183  hostname
+  184  hostnamectl
+  185  sudo vi hostname
+  186  cat hostname
+  187  hostnamectl set-hostname 'amithdevops.com'
+  188  cd /etc
+  189  ls
+  190  cat hostname
+  191  pwd
+  192  cd hostname
+  193  ls
+  194  vi hostname
+  195  sudo hostnamectl set-hostname amithdevops.com
+  196  hostnamectl
+  197  ps
+  198  ls
+  199  du -u file5
+  200  du -s file5
+  201  du -s calendar-view-plugin/
+  202  du -sh calendar-view-plugin/
+  203  /du -sh file5
+  204  ls -lh
+  205  ls -s file5
+  206  free
+  207  free -h
+  208  top
+  209  top -h
+  210  top
+  211  find .*log
+  212  find. *log
+  213  ls *log
+  214  chsh
+  215  ps -p $$ 
+  216  echo "$SHELL"
+  217  chsh shell
+  218  chsh -bash
+  219  sudo passwd root
+  220  Where is default shell stored?
+  221  cd /etc/passwd
+  222  cd /etc
+  223  ls
+  224  sudo cat passwd
+  225  chsh
+  226  cat /etc/shells
+  227  chsh
+  228  /etc
+  229  ls
+  230  cat passwd
+  231  cd /bin
+  232  ls
+  233  cat env
+  234  cd ..
+  235  ls
+  236  cd var/
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd  /var/lib
+  241  pwd
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd var
+  246  ls
+  247  env
+  248  printenv
+  249  shortcut
+  250  file
+  251  cd --
+  252  ls
+  253  file
+  254  htop
+  255  top
+  256  htop
+  257  who -a
+  258  whoami
+  259  who
+  260  .
+  261  ls
+  262  cd test/
+  263  ls
+  264  touch exp{1..5}
+  265  ls
+  266  touch exp{6..10}
+  267  crontab -l
+  268  crontab -e
+  269  crontab -l
+  270  cd ..
+  271  ls
+  272  cd test
+  273  ls
+  274  ls -lrt
+  275  ls -lrt >> exp1
+  276  cat exp1
+  277  ls -u
+  278  ls -ul
+  279  ls -cl
+  280  ls -l
+  281  history
+  282  clear
+  283  man ls
+  284  man awk
+  285  man grep
+  286  exit
+  287  ls
+  288  vi delete.sh
+  289  bash delete.sh
+  290  bash delete.sh 5
+  291  vi delete.sh 
+  292  delete.sh
+  293  bash delete.sh
+  294  bash delete.sh 4
+  295  ls
+  296  cd test
+  297  ls
+  298  find /home/ec2-user/test -type f -mmin +20 | xarg rm
+  299  cd ..
+  300  vi delete.sh 
+  301  bash delete.sh 4
+  302  rm --help
+  303  vi delete.sh 
+  304  bash delete.sh
+  305  cd test
+  306  ls
+  307  vi delete.sh 50
+  308  ls
+  309  bg
+  310  ps -ef
+  311  ps
+  312  ls
+  313  bash delete.sh 50
+  314  cd ..
+  315  cd ls
+  316  ls
+  317  bash delete.sh
+  318  ls test
+  319  ls
+  320  cd test
+  321  ls
+  322  touch file{20..100}
+  323  ls
+  324  find /home/ec2-user/test -type f -mmin -20 | xargs rm
+  325  ls
+  326  touch file{20..100}
+  327  ls
+  328  cd ..
+  329  ls
+  330  vi delete.sh 
+  331  bash delete.sh 20
+  332  vi delete.sh 
+  333  bash delete.sh
+  334  ls test
+  335  bash delete.sh 20
+  336  vi delete.sh 
+  337  bash delete.sh 30
+  338  find man
+  339  man find
+  340  ls
+  341  cd test
+  342  ls -lrt
+  343  touch -r "file98" -d '+8 hour' "file98"
+  344  ls -lrt
+  345  touch --help
+  346  touch -t --help
+  347  touch -r "file98" -d '+8 hour' "file98"
+  348  delete --help
+  349  delete
+  350  xargs ls -l
+  351  fg
+  352  netstat --help
+  353  echo “linux” | rev
+  354  history
+  355  history | grep "test"
+  356  history | grep "test"| awk -F " " '{print 1}'
+  357  find -type f -newermt "2011-12-22" \! -newermt "2011-12-24"
+  358  history
+  359  history | grep "test"| awk -F " " '{print$1}'
+  360  NR
+  361  nr
+  362  touch --help
