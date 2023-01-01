@@ -52,9 +52,9 @@ total 32
   -----------------------------------------------------------------------------------------------------------------------------------------
   CREATE USER AND CHANGE PERMISSION
   sudo useradd amith
-  421  who
-  422  id
-  423  su amith
+    who
+    id
+    su amith
   424  cd /etc/default/useradd
   425  cd /etc/default
   426  ls
