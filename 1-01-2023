@@ -47,5 +47,8 @@ total 32
   440  sudo chmod u-x g+x o+wx exp3
   441  sudo chmod u-x,g+x,o+wx exp3 ----->> RIGHT SYNTAX TO FOLLOW
   ----------------------------------------------------------------------------------------------------------------------------------------
-  
+  `history`    ==== command which displays history of commands
+  `history -c` ==== command which clears history of commands 
+  -----------------------------------------------------------------------------------------------------------------------------------------
+   
    
