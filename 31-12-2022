@@ -7,3 +7,7 @@ PS Command
 
        Print only the name of PID 42:
           ps -q 42 -o comm=
+          
+         PROCESS RELATED THEORY
+       
+         
