@@ -75,6 +75,23 @@ total 32
   441  sudo chown amith exp2
   sudo chown <username> <filename> ----------------> cahnges username
   sudo chown <username>:<groupname> ---------------> changes ownername and groupname
+  -----------------------------------------------------------------------------------------------------------------------------------------------
+  TO CHANGE GROUP 
+  chgrp
+  ls -l
+total 32
+-rw-rw-rw- 1 ec2-user ec2-user 5514 Dec 31 13:02 exp1
+-rwxrwxr-x 1 amith    ec2-user 5514 Dec 31 13:04 exp2
+-rw-rwxrwx 1 ec2-user ec2-user  517 Jan  1 05:16 exp3
+-rwxrw-r-- 1 ec2-user ec2-user 8255 Jan  1 05:17 exp4
+[ec2-user@amithdevops test]$ sudo chgrp amith exp2
+[ec2-user@amithdevops test]$ ls -l
+total 32
+-rw-rw-rw- 1 ec2-user ec2-user 5514 Dec 31 13:02 exp1
+-rwxrwxr-x 1 amith    amith    5514 Dec 31 13:04 exp2
+-rw-rwxrwx 1 ec2-user ec2-user  517 Jan  1 05:16 exp3
+-rwxrw-r-- 1 ec2-user ec2-user 8255 Jan  1 05:17 exp4
+   sudo chgrp <groupname> <filename> --------------------------> changes group of file
   
-   
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
    
