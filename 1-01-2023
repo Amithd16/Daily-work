@@ -50,5 +50,31 @@ total 32
   `history`    ==== command which displays history of commands
   `history -c` ==== command which clears history of commands 
   -----------------------------------------------------------------------------------------------------------------------------------------
+  CREATE USER AND CHANGE PERMISSION
+  sudo useradd amith
+  421  who
+  422  id
+  423  su amith
+  424  cd /etc/default/useradd
+  425  cd /etc/default
+  426  ls
+  427  cat useradd
+  428  su
+  429  sdo su
+  430  sudo su
+  431  who
+  432  cd /etc/passwd
+  433  cd /etc/
+  434  ls
+  435  cat passwd-
+  436  cd ~
+  437  ls
+  438  cd test
+  439  ls -l
+  440  chown amith exp2
+  441  sudo chown amith exp2
+  sudo chown <username> <filename> ----------------> cahnges username
+  sudo chown <username>:<groupname> ---------------> changes ownername and groupname
+  
    
    
