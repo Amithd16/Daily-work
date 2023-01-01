@@ -1,0 +1,39 @@
+find empty files 
+find . -empty
+find . -empty | xargs rm 
+         ========> deletes all the files which are empty
+CHANGING PERMISSIONS TO FILES
+   ls -lh
+total 32K
+-rw-rw-r-- 1 ec2-user ec2-user 5.4K Dec 31 13:02 exp1
+-rw-rw-r-- 1 ec2-user ec2-user 5.4K Dec 31 13:04 exp2
+-rw-rw-r-- 1 ec2-user ec2-user  517 Jan  1 05:16 exp3
+-rwxrw-r-- 1 ec2-user ec2-user 8.1K Jan  1 05:17 exp4
+[ec2-user@amithdevops test]$ chmod 777 exp1
+[ec2-user@amithdevops test]$ ls -lrt
+total 32
+-rwxrwxrwx 1 ec2-user ec2-user 5514 Dec 31 13:02 exp1
+-rw-rw-r-- 1 ec2-user ec2-user 5514 Dec 31 13:04 exp2
+-rw-rw-r-- 1 ec2-user ec2-user  517 Jan  1 05:16 exp3
+-rwxrw-r-- 1 ec2-user ec2-user 8255 Jan  1 05:17 exp4
+[ec2-user@amithdevops test]$ chmod a+x exp2
+[ec2-user@amithdevops test]$ ls -lrt
+total 32
+-rwxrwxrwx 1 ec2-user ec2-user 5514 Dec 31 13:02 exp1
+-rwxrwxr-x 1 ec2-user ec2-user 5514 Dec 31 13:04 exp2
+-rw-rw-r-- 1 ec2-user ec2-user  517 Jan  1 05:16 exp3
+-rwxrw-r-- 1 ec2-user ec2-user 8255 Jan  1 05:17 exp4
+[ec2-user@amithdevops test]$ chmod u+x exp3
+[ec2-user@amithdevops test]$ ls -lrt
+total 32
+-rwxrwxrwx 1 ec2-user ec2-user 5514 Dec 31 13:02 exp1
+-rwxrwxr-x 1 ec2-user ec2-user 5514 Dec 31 13:04 exp2
+-rwxrw-r-- 1 ec2-user ec2-user  517 Jan  1 05:16 exp3
+-rwxrw-r-- 1 ec2-user ec2-user 8255 Jan  1 05:17 exp4
+         chmod <permission> <file-name>
+         chmod a+x ========> full permission to all
+         chmod u+r
+               u+rw
+               u+rwx
+   chmod -R <permission> <DIRECTORY>  
+   
