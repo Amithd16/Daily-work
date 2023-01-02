@@ -1,0 +1,51 @@
+cd test/
+  452  ls
+  453  ls -lrt
+  454  ls -lh
+  455  cat exp4
+  456  grep -i "linx" exp4
+  457  grep -i "ec2" exp4
+  458  grep -i "ec2" exp4 >> exp5
+  459  ls
+  460  cat exp5
+  461  ls -lrt
+  462  ls -lh
+  463  ls
+  464  cd test/
+  465  ls
+  466  wc -l exp1
+  467  wc -c exp1
+  468  wc -w exp1
+  469  wc -l exp2
+  470  wc -w exp2
+  471  wc -w exp4
+  472  head -n exp1
+  473  head exp12
+  474  head --help
+  475  head man
+  476  man head
+  477  head -n -10 exp1
+  478  head -10 exp1
+  479  tail -f exp1
+  480  tail -2 exp1
+  481  head -5 exp1 | tail -1
+  482  cd /test
+  483  ls
+  484  cd test/
+  485  head -25 exp3 | tail -5 | wc -w
+  486  cat exp4
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  487  grep -i -e "linux" -i -e "credit" 
+  488  grep -i -e "linux" -i -e "credit" exp4
+  489  grep -i -e "linux"  "credit" exp4
+  490  grep -i -e "linux" -e "credit" exp4
+  491  grep -ie "linux" -ie "credit" exp4 =============> works with this format too
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  grep -R "linux"
+  496  grep -R "linux" *
+  497  ls
+  498  cd test
+  499  grep -R "linux" 
+  500  grep -R "linux" *
+  501  grep -R -i "linux"* ========== correct format to search inside a directory containing multiple files
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
