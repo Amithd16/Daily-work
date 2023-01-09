@@ -1,0 +1,443 @@
+  ls
+  366  cd commands/
+  367  ls
+  368  pwd
+  369  cd /home/ec2-user/test
+  370  ls
+  371  cat exp1
+  372  cp exp1 exp2
+  373  cat exp2
+  374  chmod 764 exp4
+  375  ls -lrt >>exp1
+  376  cat exp1
+  377  rsync exp1 exp2
+  378  cat exp1
+  379  cat exp2
+  380  ls
+  381  lss
+  382  less
+  383  less delete.sh
+  384  bg
+  385  ps -ef
+  386  ps kill 23396
+  387  ps --help
+  388   kill 23396
+  389  ps -ef
+  390  bg
+  391  fg
+  392  bg
+  393  ps man
+  394  man ps
+  395  ls
+  396  cd test
+  397  ls
+  398  rmdir file{50..90}
+  399  rm -rf file{50..99}
+  400  ls
+  401  exit
+  402  history
+  403  ls
+  404  cd --
+  405  ls
+  406  ls -l
+  407  cd test/
+  408  ls -l
+  409  chown amith exp2
+  410  WHO
+  411  who
+  412  su amith
+  413  id
+  414  who
+  415  sudo useradd
+  416  useradd -D amith
+  417  sudo useradd -D amith
+  418  su -u
+  419  sudo su
+  420  sudo useradd amith
+  421  who
+  422  id
+  423  su amith
+  424  cd /etc/default/useradd
+  425  cd /etc/default
+  426  ls
+  427  cat useradd
+  428  su
+  429  sdo su
+  430  sudo su
+  431  who
+  432  cd /etc/passwd
+  433  cd /etc/
+  434  ls
+  435  cat passwd-
+  436  cd ~
+  437  ls
+  438  cd test
+  439  ls -l
+  440  chown amith exp2
+  441  sudo chown amith exp2
+  442  ls -lrt
+  443  history
+  444  ls -l
+  445  cd test/
+  446  ls -l
+  447  sudo chgrp amith exp2
+  448  ls -l
+  449  history
+  450  ls
+  451  cd test/
+  452  ls
+  453  ls -lrt
+  454  ls -lh
+  455  cat exp4
+  456  grep -i "linx" exp4
+  457  grep -i "ec2" exp4
+  458  grep -i "ec2" exp4 >> exp5
+  459  ls
+  460  cat exp5
+  461  ls -lrt
+  462  ls -lh
+  463  ls
+  464  cd test/
+  465  ls
+  466  wc -l exp1
+  467  wc -c exp1
+  468  wc -w exp1
+  469  wc -l exp2
+  470  wc -w exp2
+  471  wc -w exp4
+  472  head -n exp1
+  473  head exp12
+  474  head --help
+  475  head man
+  476  man head
+  477  head -n -10 exp1
+  478  head -10 exp1
+  479  tail -f exp1
+  480  tail -2 exp1
+  481  head -5 exp1 | tail -1
+  482  cd /test
+  483  ls
+  484  cd test/
+  485  head -25 exp3 | tail -5 | wc -w
+  486  cat exp4
+  487  grep -i -e "linux" -i -e "credit"
+  488  grep -i -e "linux" -i -e "credit" exp4
+  489  grep -i -e "linux"  "credit" exp4
+  490  grep -i -e "linux" -e "credit" exp4
+  491  grep -ie "linux" -ie "credit" exp4
+  492  history
+  493  cd ..
+  494  ls
+  495  grep -R "linux"
+  496  grep -R "linux" *
+  497  ls
+  498  cd test
+  499  grep -R "linux" 
+  500  grep -R "linux" *
+  501  grep -R -i "linux"*
+  502  history
+  503  ls
+  504  cd test/
+  505  ls
+  506  vi exp5
+  507  vi exp6
+  508  cd /test
+  509  ls
+  510  cd test
+  511  ls
+  512  vi exp6
+  513  ls
+  514  sudo vi cal.sh
+  515  ls -lh
+  516  sh cal.sh
+  517  cat cal.sh
+  518  sudo vi cal.sh
+  519  sh cal.sh
+  520  ls
+  521  sudo vi cal.sh
+  522  sh cal.sh
+  523  sh cal.sh 2 3 4 5 6 
+  524  sudo vi cal.sh
+  525  sh cal.sh
+  526  sudo vi cal.sh
+  527  cat cal.sh
+  528  sudo vi cal.sh
+  529  sh cal.sh
+  530  sh cal.sh 5 3
+  531  sudo vi cal.sh
+  532  ls
+  533  sudo vi cal.sh
+  534  sh cal.sh
+  535  sudo vi cal.sh
+  536  sh cal.sh
+  537  bc
+  538  man bc
+  539  00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  540  ls
+  541  sudo vi cal.sh
+  542  sh cal.sh 3 4 
+  543  sudo vi cal.sh
+  544  sh cal.sh
+  545  sudo vi cal.sh
+  546  sh cal.sh
+  547  sh cal.sh 5 6 
+  548  ls
+  549  uptime
+  550  hostname
+  551  hostnamectl
+  552  lsof
+  553  ps -ef
+  554  netstat
+  555  cd /var
+  556  ls
+  557  cd tmp
+  558  ls
+  559  who
+  560  whoami
+  561  su amith
+  562  exit
+  563  cd /tmp
+  564  ls
+  565  cd ..
+  566  ld
+  567  ls
+  568  cd tmp/
+  569  ls
+  570  cd systemd-private-17ee363ea8c64e6aaf6f7932ade44ed0-chronyd.service-KdTdgp/
+  571  sudo cd systemd-private-17ee363ea8c64e6aaf6f7932ade44ed0-chronyd.service-KdTdgp/
+  572  ls
+  573  cat systemd-private-17ee363ea8c64e6aaf6f7932ade44ed0-chronyd.service-KdTdgp/
+  574  sudo cat systemd-private-17ee363ea8c64e6aaf6f7932ade44ed0-chronyd.service-KdTdgp/
+  575  sudo cd cat systemd-private-17ee363ea8c64e6aaf6f7932ade44ed0-chronyd.service-KdTdgp/
+  576  cd ..
+  577  ls
+  578  cd home/
+  579  ls
+  580  who
+  581  cd sbin
+  582  cat sbin
+  583  ls -lrt
+  584  pwd
+  585  man /
+  586  man netstat
+  587  cd var
+  588  ls
+  589  cd ..
+  590  ls
+  591  cd sbin
+  592  ls
+  593  passwd amith
+  594  sudo su
+  595  ls
+  596  cd ..
+  597  ls
+  598  cd /~
+  599  cd ~/
+  600  ls
+  601  df
+  602  df -h
+  603  du -sh
+  604  du 
+  605  du -h
+  606  ls -lh
+  607  vmstat
+  608  man vmstat
+  609  top
+  610  htop
+  611  uname
+  612  uname --all
+  613  cat /etc/os-release
+  614  free -h
+  615  cat .bashrc
+  616  ls -F
+  617  ls -IR
+  618  tree
+  619  yum install tree
+  620  su root
+  621  sudo su
+  622  tree
+  623  echo $SHELL
+  624  echo $USER
+  625  mvn --version
+  626  /etc/passwd
+  627  sudo /etc/passwd
+  628  sudo cd /etc/passwd
+  629  cd /etc
+  630  ls
+  631  cat passwd
+  632  cat groups
+  633  ls
+  634  cd group
+  635  cat group
+  636  history
+  637  ls
+  638  sudo vi cal.sh
+  639  vi cal.sh
+  640  cal.sh 5 4 3 6 
+  641  sh cal.sh 5 4 6 3 
+  642  cal.sh 5 5 5 5 
+  643  sh cal.sh 5 4 3 6 7 
+  644  sh cal.sh 5 5 5 5 5 
+  645  sh cal.sh 3 
+  646  sh cal.sh 4 -6 2 5
+  647  ls
+  648  sudo vi string.sh
+  649  ls
+  650  sudo vi rev.sh
+  651  sh rev.sh amith
+  652  vi rev.sh
+  653  sh rev.sh amith
+  654  sudo vi rev.sh
+  655  sh rev.sh amith
+  656  sudo vi rev.sh
+  657  sh rev.sh amith
+  658  sudo vi rev.sh
+  659  sudo rev.sh
+  660  sudo vi rev.sh
+  661  sh rev.sh amith
+  662  sudo vi rev.sh
+  663  sh rev.sh amith
+  664  sudo vi rev.sh
+  665  sh rev.sh amith
+  666  sudo vi rev.sh
+  667  sh rev.sh amith
+  668  amith |rev
+  669  echo "amith" | rev 
+  670  sudo vi rev.sh
+  671  sh rev.sh amith
+  672  sudo vi rev.sh
+  673  sh rev.sh amith
+  674  sudo vi rev.sh
+  675  sh rev.sh amith
+  676  sudo vi rev.sh
+  677  sh rev.sh amith
+  678  sudo vi rev.sh
+  679  sh rev.sh amith
+  680  sudo vi rev.sh
+  681  sh rev.sh amith
+  682  sudo vi rev.sh
+  683  sh rev.sh amith
+  684  sh rev.sh 1234
+  685  sudo vi rev.sh
+  686  sh rev.sh WELCOME
+  687  sh rev.sh DEVOPS
+  688  sh rev.sh 987654321
+  689  sh rev.sh  today is good day
+  690  sh rev.sh 'today is good day'
+  691  ls
+  692  sudo vi processk.sh
+  693  ps
+  694  ps -ef
+  695  date
+  696  htop
+  697  top
+  698  du -h
+  699  top
+  700  ps --help
+  701  man ps
+  702  ps -a
+  703  ps -efa
+  704  ps aux --sort=-%mem | head
+  705  top
+  706  top -b -n 1
+  707  ps aux --sort=-%mem 
+  708  ps aux --sort=-%mem | head -1
+  709  ps aux --sort=-%mem | head -2
+  710  ps aux --sort=-%mem | head -2 | tail -1
+  711  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}'
+  712  ls
+  713  sudo vi processk.sh 
+  714  ls
+  715  sudo vi processk.sh 
+  716  sh processk.sh 
+  717  sudo vi processk.sh 
+  718  sh processk.sh 
+  719  sudo vi processk.sh 
+  720  sh processk.sh 
+  721  no
+  722  sh processk.sh 
+  723  sudo vi processk.sh 
+  724  sh processk.sh 
+  725  sudo vi processk.sh 
+  726  sh processk.sh 
+  727  sudo vi processk.sh 
+  728  sh processk.sh 
+  729  sudo vi processk.sh 
+  730  history
+  731  sudo vi processk.sh 
+  732  ls
+  733  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -9
+  734  man kill
+  735  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -n -9
+  736  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -n
+  737  man kill
+  738  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -s
+  739  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -s -9
+  740  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -9
+  741  ps-ef
+  742  ps -ef
+  743  kill -9 4899
+  744  kill -9 4898
+  745  kill -9 31271
+  746  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -9
+  747  kill -l
+  748  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -l -9
+  749  9
+  750  ps aux --sort=-%mem | head -2 | tail -1 | awk -F " " '{print $2}' | kill -9
+  751  ps -ef | head -1 | awk -F " " '{print $2}' | kill -9
+  752  ps -ef | head -1 | awk -F " " '{print $2}'
+  753  ps -ef
+  754  ps -ef | head -2 | tail -1 | awk -F " " '{print $2}' |
+  755  ps -ef | head -2 | tail -1 | awk -F " " '{print $2}' 
+  756  ps -ef | head -2 | tail -1 | awk -F " " '{print $2}' | kill -9
+  757  kill -9 1
+  758  sudo vi processk.sh 
+  759  sh processk.sh 
+  760  %cpu
+  761  cpu
+  762  who
+  763  whoami
+  764  sudo cat /etc/passwd
+  765  ls
+  766  cd calendar-view-plugin/
+  767  ls
+  768  mvn build pom.xml
+  769  ls
+  770  cd calendar-view-plugin/
+  771  ls
+  772  cd src
+  773  ls
+  774  cd main
+  775  ls
+  776  cd java
+  777  ls
+  778  sudo yum install awscli
+  779  sudo su jenkins
+  780  whoami
+  781  sudo su jenkins
+  782  su 
+  783  sudo su
+  784  cd /etc/passwd
+  785  cd /etc
+  786  ls
+  787  cat passwd
+  788  ls
+  789  sudo cat sudoers
+  790  aws configure
+  791  aws
+  792  su jenkins
+  793  sudo su jenkins
+  794  sudo visudo
+  795  sudo visudo
+  796  sudo su jenkins
+  797  aws configure
+  798  sudo su
+  799  sudo su jenkins
+  800  sudo visudo
+  801  sudo su
+  802  sudo su
+  803  sudo visudo
+  804  su jenkins
+  805  sudo su jenkins
+  806  aws configure
+  807  aws configure --profile produser
