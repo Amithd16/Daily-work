@@ -62,4 +62,7 @@
   130  find /-amin -60
   131  man find
   132  find /home -user $USER -mtime -90
-  133  history
+  133  find -print --help
+  134  find ./ -name dev -exec rm -i {} \; ===== 
+  When this command is entered, a prompt will come for confirmation, if we want to delete dev or not. if we enter ‘Y/y’ it will delete the file
+  135
