@@ -1,0 +1,65 @@
+ man find
+   70  man list
+   71  find --help
+   72  find -D help
+   73  find . -name amith
+   74  touch amith
+   75  ls
+   76  find . -name amith
+   77  find . -name Amith
+   78  find . -name -i Amith
+   79  find . -iname Amith
+   80  mkdir dir {1..9}
+   81  ls
+   82  rm -R {1..9}
+   83  ls
+   84  mkdir dir{1..9}
+   85  ls
+   86  cd dir
+   87  touch dev
+   88  pwd
+   89  cp /home/ubuntu/dir /home/ubuntu/dir1
+   90  cp -r /home/ubuntu/dir /home/ubuntu/dir1
+   91  cd  /home/ubuntu/dir1
+   92  ls
+   93  tree
+   94  sudo apt install tree
+   95  tree
+   96  cd..
+   97  cd ..
+   98  ls
+   99  cd dir
+  100  ls
+  101  cd ..
+  102  ls
+  103  find ./home/ubuntu -name dev
+  104  find ./home/user -name dev
+  105  find ./home -name dev
+  106  find . -name ddev
+  107  find . -name dev
+  108  find . -empty
+  109  find . -perm 400
+  110  Find . -perm 400
+  111  find . perm 600
+  112  ls -lrt
+  113  cd dir
+  114  ls
+  115  vi dev
+  116  cd ..
+  117  cd dir1
+  118  ls
+  119  cd dir
+  120  ls
+  121  mv dev dev1
+  122  ls
+  123  vi dev1
+  124  find . -mtimedays
+  125  find . -mtime 4
+  126  cd ..
+  127  find . -mtime 4
+  128  find . -mtime -4
+  129  find / -mmin -60
+  130  find /-amin -60
+  131  man find
+  132  find /home -user $USER -mtime -90
+  133  history
